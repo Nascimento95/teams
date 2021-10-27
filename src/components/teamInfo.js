@@ -8,9 +8,9 @@ class AllTeam extends React.Component {
     console.log("allteam",this.props);
     return (
       <div className="col-6 ">
-        <div className="border border-1 mt-5">
+        <div className="border border-1 mt-5 text-center">
           <h2>{shortName}</h2>
-          <img src ={crestUrl}/>
+          <img src ={crestUrl} style={{height: "100px"}} />
           <p>{venue}</p>
           <p>{address}</p>
           <p>{email}</p>
